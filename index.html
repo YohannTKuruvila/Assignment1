@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+
+    
+    <title>Contact Us</title>
+
+    <style type="text/css">
+
+    body {
+      font-family: 'Karla', sans-serif;
+      color: white;
+      text-align: center;      
+      background: #000639;      
+    }
+
+    select:required:invalid {
+      color: gray;
+  }
+    option[value=""][disabled] {
+      display: none;
+  }
+    option {
+      color: black;
+  }
+
+    #section1 {
+      text-align:left;
+      padding-top: 100px;
+      display: inline-block;
+    }
+
+    h1 {
+      font-size:24px;
+      letter-spacing:0.5px;
+    }
+
+    hr {
+      border-color: #7AB55C;
+      width: 50px;
+      margin: 0px;
+    }
+
+    .input-form input {
+      float: left;
+      width: 45%;       
+      border-radius: 5px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;      
+    }
+    .input-form select {
+      display: inline-block;
+      height: 48px;
+      width: 45%;   
+    }
+    a.blueButton {
+      display: block;
+      width: 90%;
+      text-align: center;
+      border-radius: 5px;
+      background-color: #5c6ac4;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    a.blueButton:hover {
+      background-color: #7AB55C;
+    }
+
+    #subhead {
+      font-size:18px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="section1">
+    <h1>Contact Us</h1>
+    <p id ="subhead"> Stay up to date on the latest job postings with our newsletter</p>
+    <hr></hr>
+    <p> Subscribe to our newsletter</p>
+    <div class="input-form">
+    <form>
+      <input type="text" placeholder="Email Address"></input>
+    </form>
+    <select required>
+    <option value="" selected>I am Interested In ...</option>
+    <option value="webdev">Web Developer Jobs!</option>
+    <option value="iOS">iOS Developer Jobs!</option>  
+    <option value="DB">Database Engineering</option> 
+    <option value="all">Send me Everything!</option>     
+    </select>
+    </div>
+    <br></br>
+    <a class = "blueButton"> Sign up!</a>
+  </body>
+</html>
+
